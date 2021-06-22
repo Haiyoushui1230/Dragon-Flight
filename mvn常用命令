@@ -1,0 +1,27 @@
+项目测试常用命令
+运行测试代码
+
+# mvn  test
+
+项目打包命令
+打包项目
+#mvn  package
+
+
+组合使用goal命令，如只打包不测试
+# mvn  -Dtest  package
+
+跳过测试进行打包
+# mvn clean package -DskipTests -Prelease
+
+清除项目常用的命令
+清除项目
+#mvn  clean
+
+查看错误的详细信息
+查看错误的详细信息
+# mvn  -e
+
+
+发生jar的冲突显示冲突的原因
+# mvn  install -x
