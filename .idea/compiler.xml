@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Dragon-Netty" />
         <module name="Dragon-Zookeeper" />
+        <module name="Dragon-Demo" />
       </profile>
     </annotationProcessing>
   </component>

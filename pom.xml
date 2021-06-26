@@ -11,6 +11,7 @@
     <modules>
         <module>Dragon-Zookeeper</module>
         <module>Dragon-Netty</module>
+        <module>Dragon-Demo</module>
     </modules>
 
 
