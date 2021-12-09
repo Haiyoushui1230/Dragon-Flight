@@ -12,6 +12,8 @@
         <module>Dragon-Zookeeper</module>
         <module>Dragon-Netty</module>
         <module>Dragon-Demo</module>
+        <module>Dragon-Concurrent</module>
+        <module>Dragon-NIO</module>
     </modules>
 
 

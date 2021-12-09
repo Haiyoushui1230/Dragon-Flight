@@ -128,7 +128,7 @@ public class ZooKeeperDistributeSyncLock {
             zookeeper.create(LOCK_SUB_NODE, LOCK_SUB_NODE.getBytes(), acls, CreateMode.EPHEMERAL);
 
             /**
-             * 第六步：执行业务逻辑
+             * 第六步：执行业务逻辑，可以不加，会调用watcher里的handleBusiness方法，下面这个是为了第一次什么的。好像没用
              */
             handleBusiness(zookeeper, CURRENT_NODE);
         } catch (Exception e){
